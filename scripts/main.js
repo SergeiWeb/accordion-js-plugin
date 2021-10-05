@@ -1,3 +1,5 @@
 import { Accordion } from './core/core.js'
 
-new Accordion('', {})
+new Accordion('.accordion-1', {
+	speed: 500
+})
